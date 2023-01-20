@@ -1,0 +1,306 @@
+body {
+    background-color: #B2C482;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(fonts/Inter-VariableFont_slnt,wght.ttf);
+}
+
+p {
+    font-family: Inter;
+}
+
+h1 {
+    font-family: Inter
+}
+
+h2 {
+    font-family: Inter;
+}
+
+.wrapper {
+    padding-top: 64px;
+    justify-content: center;
+    display: flex;
+}
+
+.image_wrap {
+    margin-right: 20px;
+
+}
+
+.photo {
+    border-radius: 10px;
+    width: 96px;
+    height: 91px;
+}
+
+.text_wrap {
+    padding-left: 35px;
+}
+
+.name {
+
+}
+
+.name_1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.job {
+}
+
+.job_1 {
+    font-weight: 400;
+    line-height: 22px;
+    font-size: 18px;
+}
+
+.line {
+    width: 614px;
+    border: none;
+    background-color: black;
+    color: black;
+    height: 3px;
+}
+
+.wrapper-scnd {
+    padding-top: 51px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.facts-block {
+    border-radius: 3px;
+    width: 614px;
+    height: 220px;
+    background-color: #FFFFFF;
+
+}
+
+.facts {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.facts-ul {
+    padding-left: 45px;
+}
+
+.text1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.wrapper-thrd {
+    padding-top: 47px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.images {
+    display: flex;
+    margin: 29px -31px;
+}
+
+.img1 {
+    margin: -2px 31px;
+}
+
+.img2 {
+}
+
+.img3 {
+    margin: -1px 31px;
+}
+
+.img4 {
+    margin: -17px -25px -25px;
+}
+
+.img5 {
+    margin: 0 31px;
+}
+
+.img6 {
+    margin: 12px 0;
+}
+
+.my_certificates {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.certificates1 {
+    width: 279px;
+    height: 191px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 3px;
+    margin-left: 11px;
+    margin-top: 38px
+}
+
+.line2 {
+    margin-top: 40px;
+    width: 614px;
+    border: none;
+    background-color: black;
+    color: black;
+    height: 3px;
+}
+
+.wrapper-frth {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.facts-block2 {
+    border-radius: 3px;
+    width: 614px;
+    height: 309px;
+    background-color: #FFFFFF;
+}
+
+.certificates_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-basic-html {
+    width: 279px;
+    height: 191px;
+}
+
+.certificates2 {
+    width: 289px;
+    height: 186px;
+    background: #F5F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    margin-top: 30px;
+    margin-left: 14px;
+    margin-right: 14px;
+}
+
+.wrapper-ffth {
+    margin-top: 44px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+table.job {
+    width: 529px;
+    height: 210px;
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: 43px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+table.job th {
+    line-height: 14px;
+    font-weight: normal;
+    font-size: 14px;
+    background-color: #E5E5E5;
+}
+
+table.job td {
+    line-height: 14px;
+    font-weight: normal;
+    font-size: 14px;
+    background-color: #E5E5E5;
+    text-align: center;
+}
+
+table.job td, table.job th {
+    padding: 20px 5px;
+    line-height: 14px;
+    vertical-align: middle;
+    border: 2px solid #FFFFFF;
+}
+
+table.job tr:hover {
+}
+
+table.iksweb tr:hover td {
+    color: #000000;
+    cursor: default;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.phone {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.tg {
+    margin-left: 35px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.gt {
+    margin-left: 35px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.lin1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+a:visited {
+    color: black;
+}
+
+a:active {
+    color: black;
+}
+
+a {
+    color: black;
+}
