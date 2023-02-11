@@ -304,3 +304,58 @@ a:active {
 a {
     color: black;
 }
+
+.form-group textarea {
+    height: 300px;
+    width: 500px;
+    margin-top: 46px;
+    padding-left: 54px;
+    padding-top: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    border-radius: 7px;
+    font-family: 'Inter';
+    color: #676767;
+    background-color: #e5e5e5;
+    resize: none;
+}
+
+.checkbox-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+}
+
+.checkboxes {
+    margin-left: 100px;
+    padding: 5px 10px;
+    max-width: 320px;
+    width: 400px;
+    border-radius: 5px;
+}
+
+.checkbox-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkbox-group:not(:last-of-type) {
+    margin-bottom: 10px;
+}
+
+.checkbox {
+    cursor: pointer;
+}
+
+.label {
+    cursor: pointer;
+}
+
+.btn {
+    padding-left: 10px;
+}
